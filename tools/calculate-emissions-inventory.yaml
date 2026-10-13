@@ -1,0 +1,13 @@
+name: calculate-emissions-inventory
+description: Calculate estimated emissions and summarize valid supplied records.
+input_schema:
+  type: object
+  properties:
+    records:
+      type: array
+      items:
+        type: object
+      description: List of activity and emission-factor records.
+  required:
+    - records
+  additionalProperties: false

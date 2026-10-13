@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: industrial-emissions-reporting-agent
+version: "1.0.0"
+description: Validates supplied industrial emissions data, calculates transparent inventory totals, and prepares review-ready reporting summaries.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - emissions-data-validation
+  - emissions-calculation
+  - report-preparation
+tools:
+  - validate-emissions-record
+  - calculate-emissions-inventory
+  - prepare-emissions-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - industrial-emissions
+  - environmental-reporting
+  - inventory
+  - compliance-support

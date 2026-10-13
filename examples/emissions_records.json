@@ -1,0 +1,42 @@
+[
+  {
+    "record_id": "SRC-001",
+    "source_category": "boiler_fuel",
+    "pollutant": "CO2",
+    "activity_value": 1200,
+    "activity_unit": "tonne_fuel",
+    "emission_factor": 2.4,
+    "factor_unit": "tonne_CO2_per_tonne_fuel",
+    "reporting_period": "2026-Q3"
+  },
+  {
+    "record_id": "SRC-002",
+    "source_category": "process",
+    "pollutant": "NOx",
+    "activity_value": 85,
+    "activity_unit": "MWh",
+    "emission_factor": 0.18,
+    "factor_unit": "kg_NOx_per_MWh",
+    "reporting_period": "2026-Q3"
+  },
+  {
+    "record_id": "SRC-003",
+    "source_category": "generator",
+    "pollutant": "CO2",
+    "activity_value": 400,
+    "activity_unit": "litre_fuel",
+    "emission_factor": 2.6,
+    "factor_unit": "kg_CO2_per_litre",
+    "reporting_period": "2026-Q3"
+  },
+  {
+    "record_id": "SRC-004",
+    "source_category": "unknown",
+    "pollutant": "SO2",
+    "activity_value": 20,
+    "activity_unit": "",
+    "emission_factor": 0.1,
+    "factor_unit": "kg_per_unit",
+    "reporting_period": "2026-Q3"
+  }
+]

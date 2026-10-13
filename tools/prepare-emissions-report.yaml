@@ -1,0 +1,11 @@
+name: prepare-emissions-report
+description: Prepare a structured review-ready summary of calculated emissions.
+input_schema:
+  type: object
+  properties:
+    inventory:
+      type: object
+      description: Output of the inventory calculation.
+  required:
+    - inventory
+  additionalProperties: false

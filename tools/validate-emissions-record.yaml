@@ -1,0 +1,11 @@
+name: validate-emissions-record
+description: Validate one supplied industrial emissions activity record.
+input_schema:
+  type: object
+  properties:
+    record:
+      type: object
+      description: User-supplied activity and emission-factor record.
+  required:
+    - record
+  additionalProperties: false
